@@ -1,13 +1,14 @@
 import React from "react";
+import { ImageStyle, ImageDiv} from "./style";
 
  const Image = (props) => {
 
     const {dataurl} = props;
 
     return (
-        <div>
-            <img src={dataurl}/>
-        </div>
+        <ImageDiv>
+            <ImageStyle src={dataurl}/>
+        </ImageDiv>
     )
  }
 

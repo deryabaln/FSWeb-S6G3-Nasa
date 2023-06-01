@@ -4,15 +4,6 @@
   margin: auto;
 }
 
-img{
-  width: 100%;
-}
-
-iframe{
-  width:50vw;
-  height: 37.5vw;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
