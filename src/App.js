@@ -39,9 +39,7 @@ function App() {
         : <Youtube dataurl={data.url} />}
       <Text>{data.explanation}</Text>
       </MainDiv>
-      <p className="date">
-        {data.date}
-      </p>
+      <p className="date">{data.date} </p>
     </AppDiv>
   );
 }
