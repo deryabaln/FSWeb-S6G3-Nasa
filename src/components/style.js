@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 const AppDiv = styled.div`
-background: black;
 width: 100%;
 `;
 const Input = styled.input`
